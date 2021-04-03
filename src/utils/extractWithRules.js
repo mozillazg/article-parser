@@ -38,6 +38,8 @@ module.exports = (html) => {
       '.tb-o-story-section__body', // thebureauinvestigates.com
       '.tdb-block-inner', // defence-blog.com
       '.wysiwyg--all-content', // aljazeera.com
+      '.article-page', // ti.qianxin.com
+      '#wiki-content', // github.com/*/wiki/*
       '.post-full-content',
       '.rich-text',
       '.post-content',
