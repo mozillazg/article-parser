@@ -41,6 +41,7 @@ module.exports = (html) => {
       '.wysiwyg--all-content', // aljazeera.com
       '.article-page', // ti.qianxin.com
       '#wiki-content', // github.com/*/wiki/*
+      'main#body div.container div.card.message_card div.card-body div.message', // bbs.pediy.com
       '.post-full-content',
       '.rich-text',
       '.post-content',
@@ -86,6 +87,7 @@ module.exports = (html) => {
       'article',
       '.article',
       '#article',
+      '#text-content',  // www.grant.pizza
     ];
 
     for (let i = 0; i < potentialElements.length; i++) {
