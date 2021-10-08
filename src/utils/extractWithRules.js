@@ -35,6 +35,7 @@ module.exports = (html) => {
     }
 
     const potentialElements = [
+      '.articleContainer__content', // people.com
       '.tb-o-story-section__body', // thebureauinvestigates.com
       '.tdb-block-inner', // defence-blog.com
       '.wysiwyg--all-content', // aljazeera.com
@@ -81,6 +82,7 @@ module.exports = (html) => {
       '#baiviet-container', // eva.vn
       '.nwsCt', // eva.vn
       '.knc-content', // kenh14.vn
+      '.timely-blog-rich-text-block', // memory.ai/timely-blog
       'article',
       '.article',
       '#article',
